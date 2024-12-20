@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Frontend Mentor | News homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="container">
+      <nav class="navigation">
+        <div class="logo">
+          <img src="assets/images/logo.svg" alt="logo">
+        </div>
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle" />
+        <!-- <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-icon" form="menu-btn">
+          <span class="nav-icon"></span>
+        </label> -->
+        <ul class="menu">
+          <li><a href="#" class="menu-link">Home</a></li>
+          <li><a href="#" class="menu-link">New</a></li>
+          <li><a href="#" class="menu-link">Popular</a></li>
+          <li><a href="#" class="menu-link">Trending</a></li>
+          <li><a href="#" class="menu-link">Categories</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="container grid-1">
+        <article class="hero">
+          <picture class="hero-image">
+            <source media="(max-width: 760px)" srcset="./assets/images/image-web-3-mobile.jpg" />
+            <img src="./assets/images/image-web-3-desktop.jpg" alt="web 3.0">
+          </picture>
+          <div class="hero-flex">
+             <h1>
+              The Bright Future of Web 3.0?
+             </h1>
+             <div class="hero-content">
+                <p>
+                We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the
+                people.
+                But is it really fulfilling its promise?
+                </p>
+                <a href="" class="btn">Read More</a>
+            </div>
+          </div>
+        </article>
+        <aside>
+          <span class="decoration"></span>
+          <h2>NEW</h2>
+          <article>
+             <h3>
+              Hydrogen VS Electric Cars
+             </h3>
+             <p>
+              What are the possible adverse effects of on-demand AI image generation?
+             </p>
+             <hr>
+          </article>
+          <article>
+             <h3>
+              The Downsides of AI Artistry
+             </h3>
+             <p>
+              Will hydrogen-fueled cars ever catch up to EVs?
+             </p>
+             <hr>
+          </article>
+          <article>
+             <h3>
+              Is VC Funding Drying Up?
+             </h3>
+             <p>
+              Is VC Funding Drying Up?
+              Private funding by VC firms is down 50% YOY. We take a look at what that means.
+             </p>
+          </article>
+        </aside>
+      </section>
+    </main>
+    <footer class="container footer-flex">
+      <article class="flex-article">
+        <div>
+          <img src="./assets/images/image-retro-pcs.jpg" alt="">
+        </div>
+        <div>
+          <h4>01</h4>
+          <h3>Reviving Retro PCs</h3>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </article>
+      <article class="flex-article">
+        <div>
+          <img src="./assets/images/image-gaming-growth.jpg" alt="">
+        </div>
+        <div>
+          <h4>02</h4>
+          <h3>The Growth of Gaming</h3>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </article>
+      <article class="flex-article">
+        <div>
+          <img src="./assets/images/image-top-laptops.jpg" alt="">
+        </div>
+        <div>
+          <h4>03</h4>
+          <h3>Top Laptops of 2022</h3>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </article>
+    </footer>
+  </body>
+</html>
